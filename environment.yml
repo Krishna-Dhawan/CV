@@ -1,0 +1,14 @@
+name: cv-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+      - opencv-python
+      - opencv-contrib-python
+      - open3d
+      - typing_extensions
